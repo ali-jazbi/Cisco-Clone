@@ -23,19 +23,16 @@
     .banner-sm h1{
         font-size: 40px !important;
     }
-    .banner-sm h1{
-        font-size: 32px;
-    }
-    .banner-sm p{
-        font-size: 14px;
-    }
-    .banner-sm button{
-        font-size: 14px;
-    }
     .banner-sm img{
         width: 100%;
     }
     .banner-sm-content{
         padding: 20px;
+    }
+    .features .row{
+        width: 100% !important;
+    }
+    .features .row i{
+        font-size: 30px !important;
     }
 }
