@@ -10,342 +10,456 @@
     <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
-    <div class="header d-none d-lg-flex bg-body-secondary w-100 d-flex justify-content-center align-items-center py-3" style="height:34px">
-        <div class="d-flex justify-content-end align-items-center" style="width: 90%;">
-            <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                How to Buy
-            </a>
-            <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    Partners
-            </a>
-            <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                <i class="bi bi-person"></i> Log in
-            </a>
-            <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                <i class="bi bi-globe"></i> EN US
-            </a>
+    <main class="d-md-none d-lg-block">
+        <div class="header d-none d-lg-flex bg-body-secondary w-100 d-flex justify-content-center align-items-center py-3" style="height:34px">
+            <div class="d-flex justify-content-end align-items-center" style="width: 90%;">
+                <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                    How to Buy
+                </a>
+                <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        Partners
+                </a>
+                <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                    <i class="bi bi-person"></i> Log in
+                </a>
+                <a class="link-secondary fs-14 ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                    <i class="bi bi-globe"></i> EN US
+                </a>
+            </div>
         </div>
-    </div>
-    
-    <!-- Desktop Menu -->
-    <nav class="d-none d-lg-flex">
-        <ul class="d-flex justify-content-between p-0">
-            <div class="d-flex h-100 align-items-center">
-                <li style="width: 94px;height:50px;">
+        
+        <!-- Desktop Menu -->
+        <nav class="d-none d-lg-flex">
+            <ul class="d-flex justify-content-between p-0">
+                <div class="d-flex h-100 align-items-center">
+                    <li style="width: 94px;height:50px;">
+                        <img src="./images/cisco-icon.png" alt="">
+                    </li>
+                    <li>
+                        <a class="text-black" href="#">Products and Services</a>
+                    </li>
+                    <li>
+                        <a class="text-black" href="#">Solutions</a>
+                    </li>
+                    <li>
+                        <a class="text-black" href="#">Support</a>
+                    </li>
+                    <li>
+                        <a class="text-black" href="#">Learn</a>
+                    </li>
+                </div>
+                <div class="d-flex">
+                    <li>
+                        <a class="text-black" href="#">Explore Cisco</a>
+                    </li>
+                    <li>
+                        <a class="text-black" href="#">Search<i class="bi bi-search ms-2"></i>
+                        </a>
+                    </li>
+                </div>
+                
+            </ul>
+        </nav>
+        <!-- End Desktop Menu -->
+
+        <!-- Mobile Menu -->
+        <nav class="d-lg-none d-flex align-items-center">
+            <ul class="d-flex justify-content-between align-items-center px-3 h-100">
+                <a style="width: 15%;height:55%" href="#">
                     <img src="./images/cisco-icon.png" alt="">
-                </li>
-                <li>
-                    <a class="text-black" href="#">Products and Services</a>
-                </li>
-                <li>
-                    <a class="text-black" href="#">Solutions</a>
-                </li>
-                <li>
-                    <a class="text-black" href="#">Support</a>
-                </li>
-                <li>
-                    <a class="text-black" href="#">Learn</a>
-                </li>
-            </div>
-            <div class="d-flex">
-                <li>
-                    <a class="text-black" href="#">Explore Cisco</a>
-                </li>
-                <li>
-                    <a class="text-black" href="#">Search<i class="bi bi-search ms-2"></i>
+                </a>
+                <div class="w-50 d-flex justify-content-between align-items-center">
+                    <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        Log in
                     </a>
-                </li>
-            </div>
-            
-        </ul>
-    </nav>
-    <!-- End Desktop Menu -->
+                    <a class="d-flex align-items-center" href="#">
+                        <i class="text-black fs-4 bi bi-search"></i>
+                    </a>
+                    <a class="d-flex align-items-center" href="#">
+                        <i class="text-black bi bi-list" style="font-size: 40px;"></i>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+        <!-- End Mobile Menu -->
 
-    <!-- Mobile Menu -->
-    <nav class="d-lg-none d-flex align-items-center">
-        <ul class="d-flex justify-content-between align-items-center px-3 h-100">
-            <a style="width: 15%;height:55%" href="#">
-                <img src="./images/cisco-icon.png" alt="">
-            </a>
-            <div class="d-flex w-50 d-flex justify-content-between align-items-center">
-                <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    Log in
-                </a>
-                <a class="d-flex align-items-center" href="#">
-                    <i class="text-black fs-4 bi bi-search"></i>
-                </a>
-                <a class="d-flex align-items-center" href="#">
-                    <i class="text-black bi bi-list" style="font-size: 40px;"></i>
-                </a>
-            </div>
-        </ul>
-    </nav>
-    <!-- End Mobile Menu -->
-
-    <!-- Desktop Banner -->
-    <div class="banner-lg d-none d-lg-block text-white lh-base">
-        <h1 class="fw-light">
-            See your IT from a <br> better place
-        </h1>
-        <h6 class="mt-4 fw-light">
-            When your apps and infrastructure work better together, you work better.
-        </h6>
-        <div class="d-flex align-items-center mt-4">
-            <button class="btn btn-light px-4 py-3 me-4 rounded-pill">See How</button>
-            
-            <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                Explore FSO >
-            </a>  
-        </div>  
-    </div>
-    <!-- END Desktop Banner -->
-
-    <!-- Mobile Banner -->
-    <div class="banner-sm d-lg-none text-white lh-base">
-        <img src="./images/banner-sm.png" alt="">
-        <div class="banner-sm-content">
+        <!-- Desktop Banner -->
+        <div class="banner-lg d-none d-lg-block text-white lh-base">
             <h1 class="fw-light">
-                See your IT from a better place
+                See your IT from a <br> better place
             </h1>
             <h6 class="mt-4 fw-light">
                 When your apps and infrastructure work better together, you work better.
             </h6>
-                <button class="btn btn-light fs-6 d-block px-4 py-3 my-4 me-4 rounded-pill">See How</button>
+            <div class="d-flex align-items-center mt-4">
+                <button class="btn btn-light px-4 py-3 me-4 rounded-pill">See How</button>
                 <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
                     Explore FSO >
-                </a>  
-            </div> 
+                </a>
+            </div>  
         </div>
-    </div>
-    <!-- END Mobile Banner -->
+        <!-- END Desktop Banner -->
 
-    <div class="features mt-4 d-flex justify-content-center">
-        <div class="row h-100 w-50">
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-download fs-3"></i>
-                <p class="text-center">Downloads</p>
-            </div>
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-check-circle fs-3"></i>
-                <p class="text-center">Cartifications</p>
-            </div>
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-file-earmark-medical fs-3"></i>
-                <p class="text-center">Design Guides</p>
-            </div>
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-person-video3 fs-3"></i>
-                <p class="text-center">Training</p>
-            </div>
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-people-fill fs-3"></i>
-                <p class="text-center">community</p>
-            </div>
-            <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
-                <i class="bi bi-person-vcard fs-3"></i>
-                <p class="text-center">Careers</p>
+        <!-- Mobile Banner -->
+        <div class="banner-sm d-lg-none text-white lh-base">
+            <img src="./images/banner-sm.png" alt="">
+            <div class="banner-sm-content">
+                <h1 class="fw-light">
+                    See your IT from a better place
+                </h1>
+                <h6 class="mt-4 fw-light">
+                    When your apps and infrastructure work better together, you work better.
+                </h6>
+                    <button class="btn btn-light fs-6 d-block px-4 py-3 my-4 me-4 rounded-pill">See How</button>
+                    <a class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        Explore FSO >
+                    </a>  
             </div>
         </div>
-    </div>
+        <!-- END Mobile Banner -->
 
-    <div class="container mt-5">
-        <!-- 3 Cards -->
-        <div class="row h-100">
-            <div class="col-12 text-center mb-5">
-                <h2 class="fw-light">
-                    New Cisco Security Suites
-                </h2>
-            </div>
-            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
-                <div class="card shadow-sm">
-                    <img src="./images/card-1.png" class="card-img-top" alt="...">
-                    <div class="card-body px-4 d-flex flex-column justify-content-evenly">
-                        <h6 class="card-title">User Protection Suite</h6>
-                        <h5 class="card-title fw-light mt-2">Smart, simple security for your end users</h5>
-                        <p class="card-text fw-lighter">Give teams secure access to any application on any device from anywhere. With zero trust—and zero friction. </p>
-                        <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                            Explore User Protection  >
-                        </a>
-                    </div>
+        <div class="features mt-4 d-flex justify-content-center">
+            <div class="row h-100 w-50">
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-download fs-3"></i>
+                    <p class="text-center">Downloads</p>
                 </div>
-            </div>
-            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
-                <div class="card shadow-sm">
-                    <img src="./images/card-2.png" class="card-img-top" alt="...">
-                    <div class="card-body px-4 d-flex flex-column justify-content-evenly">
-                        <h6 class="card-title">Cloud Protection Suite</h6>
-                        <h5 class="card-title fw-light mt-2">Enjoy complete cloud protection</h5>
-                        <p class="card-text fw-lighter">Get the powerful, flexible framework for a hybrid and multicloud world that protects all your apps, data, and clouds. </p>
-                        <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                            Explore Cloud Protection  >
-                        </a>
-                    </div>
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-check-circle fs-3"></i>
+                    <p class="text-center">Cartifications</p>
                 </div>
-            </div>
-            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
-                <div class="card shadow-sm">
-                    <img src="./images/card-3.png" class="card-img-top" alt="...">
-                    <div class="card-body px-4 d-flex flex-column justify-content-evenly">
-                        <h6 class="card-title">Breach Protection Suite</h6>
-                        <h5 class="card-title fw-light mt-2">See more. Secure more.</h5>
-                        <p class="card-text fw-lighter">Protect your business from sophisticated threats with data-backed and AI-powered Cisco Breach Protection. </p>
-                        <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                            Explore Branch Protection  >
-                        </a>
-                    </div>
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-file-earmark-medical fs-3"></i>
+                    <p class="text-center">Design Guides</p>
+                </div>
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-person-video3 fs-3"></i>
+                    <p class="text-center">Training</p>
+                </div>
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-people-fill fs-3"></i>
+                    <p class="text-center">community</p>
+                </div>
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <i class="bi bi-person-vcard fs-3"></i>
+                    <p class="text-center">Careers</p>
                 </div>
             </div>
         </div>
-        <!-- END 3 Cards -->
-        
-        <!-- Pic / Text -->
-        <div class="pic-text">
+
+        <div class="container mt-5">
+            <!-- 3 Cards -->
+            <div class="row h-100">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="fw-light">
+                        New Cisco Security Suites
+                    </h2>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0 d-flex justify-content-center">
+                    <div class="card shadow-sm">
+                        <img src="./images/card-1.png" class="card-img-top" alt="...">
+                        <div class="card-body px-4 d-flex flex-column justify-content-evenly">
+                            <h6 class="card-title">User Protection Suite</h6>
+                            <h5 class="card-title fw-light mt-2">Smart, simple security for your end users</h5>
+                            <p class="card-text fw-lighter">Give teams secure access to any application on any device from anywhere. With zero trust—and zero friction. </p>
+                            <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                                Explore User Protection  >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0 d-flex justify-content-center">
+                    <div class="card shadow-sm">
+                        <img src="./images/card-2.png" class="card-img-top" alt="...">
+                        <div class="card-body px-4 d-flex flex-column justify-content-evenly">
+                            <h6 class="card-title">Cloud Protection Suite</h6>
+                            <h5 class="card-title fw-light mt-2">Enjoy complete cloud protection</h5>
+                            <p class="card-text fw-lighter">Get the powerful, flexible framework for a hybrid and multicloud world that protects all your apps, data, and clouds. </p>
+                            <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                                Explore Cloud Protection  >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0 d-flex justify-content-center">
+                    <div class="card shadow-sm">
+                        <img src="./images/card-3.png" class="card-img-top" alt="...">
+                        <div class="card-body px-4 d-flex flex-column justify-content-evenly">
+                            <h6 class="card-title">Breach Protection Suite</h6>
+                            <h5 class="card-title fw-light mt-2">See more. Secure more.</h5>
+                            <p class="card-text fw-lighter">Protect your business from sophisticated threats with data-backed and AI-powered Cisco Breach Protection. </p>
+                            <a class="mb-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                                Explore Branch Protection  >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END 3 Cards -->
+            
+            <!-- Pic / Text -->
+            <div class="pic-text">
+                <div class="row h-100 mt-5">
+                    <div class="col-10 col-lg-6 p-0">
+                        <img src="./images/pic-1.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center" style="padding-left:150px;">
+                        <h2 class="fw-normal">The power of purpose</h2>
+                        <p class="mt-1">We combine our technology, people, and broader networks to address society's greatest challenges. Since FY16, we've made a positive impact on more than 1 billion lives.</p>
+                        <button class="btn btn-primary w-50 fw-medium py-3 rounded-pill">Read FY23 Purpose Report</button>
+                    </div>
+                </div>
+                <!-- Row Only In Desktop -->
+                <div class="row h-100 mt-5 d-none d-lg-flex">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" style="padding-right:150px;">
+                        <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
+                        <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
+                        <div class="d-flex align-items-center">
+                            <button class="btn btn-primary fw-medium w-75 py-3 px-4 me-4 rounded-pill">See IoT special <br> offers</button>
+                            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium px-5 " href="#">
+                                Explore industrial IoT portfolio  >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./images/pic-2.png" alt="">
+                    </div>
+                </div>
+                <!--End Row Only In Desktop -->
+
+                <!-- Row Only In Mobile -->
+                <div class="row h-100 mt-5 d-lg-none">
+                    <div class="col-10 col-lg-6 p-0">
+                        <img src="./images/pic-2.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4">
+                        <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
+                        <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
+                            <button class="btn btn-primary fw-medium w-75 py-3 px-4 me-4 rounded-pill">See IoT special offers</button>
+                            <a class="link-offset-2 mt-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium " href="#">
+                                Explore industrial IoT portfolio  >
+                            </a>
+                    </div>
+                </div>
+                <!--End Row Only In Mobile -->
+
+
+                <div class="row h-100 mt-5">
+                    <div class="col-10 col-lg-6 p-0 mt-5 mt-lg-0">
+                        <img src="./images/pic-3.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4 mt-lg-0" style="padding-left:150px;">
+                        <h2 class="fw-normal">Tailored learning with Cisco U.</h2>
+                        <p class="mt-1">Discover recommended content just for you and your team. Explore skills assessments, learn-on-the-go tutorials, and more. Start for free.</p>
+                        <button style="width: 40%;" class="btn btn-primary fw-medium py-3 me-4 rounded-5">Discover Cisco U.</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END Pic / Text -->
+
+            <!-- Video -->
+            <div class="Video-row row h-100 mt-5" style="margin-bottom: 130px;">
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h2 class="fw-light">Stopping attackers is simpler than ever</h2>
+                    <p>From the network to the cloud, respond quickly and confidently to the most sophisticated cyberattacks.</p>
+                    <iframe width="75%" height="480px" src='//players.brightcove.net/1384193102001/H1Bjubn1x_default/index.html?videoId=6336757317112' allowfullscreen frameborder=0></iframe>
+                </div>
+            </div>
+            <!-- END Video -->
+
+            <!-- Inside Cisco -->
+            <div class="inside-cisco-row row h-100">
+                <div class="col-12 col-lg-10 p-0">
+                    <h2 class="fw-normal">Inside Cisco</h2>
+                </div>
+                <div class="col-2 d-none d-lg-flex p-0 justify-content-between align-items-center">
+                    <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        More news >
+                    </a>
+                    <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        More events >
+                    </a>
+                </div>
+            </div>
+            <!-- END Inside Cisco -->
+
+            <!-- Blogs -->
             <div class="row h-100 mt-5">
-                <div class="col-10 col-lg-6 p-0">
-                    <img src="./images/pic-1.png" alt="">
+                <div class="col-12 col-lg-4 d-flex flex-column justify-content-evenly">
+                    <h6 class="card-title">News</h6>
+                    <h5 class="card-title fw-light mt-3 mb-2">Cisco AI Readiness Index</h5>
+                    <p class="card-text fw-lighter">The acceleration of artificial Intelligence (AI) is fundamentally changing our world. Cisco set out to understand the readiness of global companies to deploy AI solutions in the AI Readiness Index.</p>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                        Explore Cisco AI  >
+                    </a>
                 </div>
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center" style="padding-left:150px;">
-                    <h2 class="fw-normal">The power of purpose</h2>
-                    <p class="mt-1">We combine our technology, people, and broader networks to address society's greatest challenges. Since FY16, we've made a positive impact on more than 1 billion lives.</p>
-                    <button class="btn btn-primary w-50 fw-medium py-3 rounded-pill">Read FY23 Purpose Report</button>
+                <div class="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column justify-content-evenly">
+                    <h6 class="card-title">Blog</h6>
+                    <h5 class="card-title fw-light mt-3 mb-2">Cisco further delivers on Full-Stack Observability ecosystem vision</h5>
+                    <p class="card-text fw-lighter">Seven new modules built on the Cisco Observability Platform enable customers to use additional value from observable telemetry.</p>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                        Read Blog  >
+                    </a>
                 </div>
+                <div class="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column justify-content-evenly">
+                    <h6 class="card-title">Press release</h6>
+                    <h5 class="card-title fw-light mt-3 mb-2">Cisco launches new business metrics for applications on AWS</h5>
+                    <p class="card-text fw-lighter">New business metrics for Cisco Cloud Observability allow customers to significantly enhance critical business context when observing the end-to-end flow of modern applications.</p>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
+                        Read press release  >
+                    </a>
+                </div>
+
+                <!-- Mobile Link And HR line  -->
+                <hr class="d-lg-none mt-5">
+                <div class="d-flex d-lg-none px-5 justify-content-around align-items-center mt-4">
+                    <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        More news >
+                    </a>
+                    <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                        More events >
+                    </a>
+                </div>
+                <!-- END Mobile Link And HR line  -->
+
             </div>
-            <!-- Row Only In Desktop -->
-            <div class="row h-100 mt-5 d-none d-lg-flex">
-                <div class="col-lg-6 d-flex flex-column justify-content-center" style="padding-right:150px;">
-                    <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
-                    <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
-                    <div class="d-flex align-items-center">
-                        <button class="btn btn-primary fw-medium w-75 py-3 px-4 me-4 rounded-pill">See IoT special <br> offers</button>
-                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium px-5 " href="#">
-                            Explore industrial IoT portfolio  >
+            <!--END Blogs -->
+        </div>
+
+        <!-- Desktop Footer -->
+        <footer class="d-none d-lg-block bg-body-secondary">
+            <div class="container">
+                <div class="row h-100 mt-5 py-5">
+                    <div class="col-6 d-flex align-items-center px-0 fs-14">
+                        <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            About Cisco
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Contact Us
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Careers
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Connect with a partner
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="./images/pic-2.png" alt="">
+                    <div class="col-6 d-flex justify-content-end px-0">
+                        <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                    <hr class="mt-4">
+                    <div class="col-12 p-0 fs-12 mt-4">
+                        <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Feedback
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Help
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Terms & Conditions
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Privacy Statement
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Cookies
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Accessibility
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Trademarks
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Supply Chain Transparency
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Newsroom
+                        </a>
+                        <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Sitemap
+                        </a>
+                    </div>
+                    <div class="col-12 p-0 fs-12 mt-4 text-secondary">
+                        ©2023 Cisco Systems, Inc.
+                    </div>
                 </div>
             </div>
-            <!--End Row Only In Desktop -->
+        </footer>
+        <!-- END Desktop Footer -->
 
-            <!-- Row Only In Mobile -->
-            <div class="row h-100 mt-5 d-lg-none">
-                <div class="col-10 col-lg-6 p-0">
-                    <img src="./images/pic-2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4">
-                    <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
-                    <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
-                        <button class="btn btn-primary fw-medium w-75 py-3 px-4 me-4 rounded-pill">See IoT special offers</button>
-                        <a class="link-offset-2 mt-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium " href="#">
-                            Explore industrial IoT portfolio  >
+        <!-- Mobile Footer -->
+        <footer class="d-lg-none bg-body-secondary mt-5">
+            <div class="container d-flex flex-column">
+                <div class="d-flex flex-column mt-5">
+                        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-black w-100 mb-4 d-flex justify-content-between align-items-center">
+                            <span>Quick Links</span>
+                            <i class="fs-1 me-3">-</i>
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            About Cisco
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Contact Us
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Careers
+                        </a>
+                        <a class="link-secondary fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Connect with a partner
+                        </a>
+                        <hr class="my-5">
+                        <a href="#" class="link-offset-2 mb-4 link-underline link-underline-opacity-0 text-black w-100 d-flex justify-content-between align-items-center">
+                            <span>Resourses and Legal</span>
+                            <span class="fs-3 me-4">+</span>
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Feedback
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Help
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Terms & Conditions
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Privacy Statement
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Cookies
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Accessibility
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Trademarks
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Supply Chain Transparency
+                        </a>
+                        <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Newsroom
+                        </a>
+                        <a class="link-secondary fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Sitemap
                         </a>
                 </div>
-            </div>
-            <!--End Row Only In Mobile -->
-
-
-            <div class="row h-100 mt-5">
-                <div class="col-10 col-lg-6 p-0 mt-5 mt-lg-0">
-                    <img src="./images/pic-3.png" alt="">
-                </div>
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4 mt-lg-0" style="padding-left:150px;">
-                    <h2 class="fw-normal">Tailored learning with Cisco U.</h2>
-                    <p class="mt-1">Discover recommended content just for you and your team. Explore skills assessments, learn-on-the-go tutorials, and more. Start for free.</p>
-                    <button style="width: 40%;" class="btn btn-primary fw-medium py-3 me-4 rounded-5">Discover Cisco U.</button>
-                </div>
-            </div>
-        </div>
-        <!-- END Pic / Text -->
-
-        <!-- Video -->
-        <div class="Video-row row h-100 mt-5" style="margin-bottom: 130px;">
-            <div class="col-12 d-flex flex-column align-items-center">
-                <h2 class="fw-light">Stopping attackers is simpler than ever</h2>
-                <p>From the network to the cloud, respond quickly and confidently to the most sophisticated cyberattacks.</p>
-                <iframe width="75%" height="480px" src='//players.brightcove.net/1384193102001/H1Bjubn1x_default/index.html?videoId=6336757317112' allowfullscreen frameborder=0></iframe>
-            </div>
-        </div>
-        <!-- END Video -->
-
-        <!-- Inside Cisco -->
-        <div class="inside-cisco-row row h-100">
-            <div class="col-12 col-lg-10 p-0">
-                <h2 class="fw-normal">Inside Cisco</h2>
-            </div>
-            <div class="col-2 d-none d-lg-flex p-0 justify-content-between align-items-center">
-                <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    More news >
-                </a>
-                <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    More events >
-                </a>
-            </div>
-        </div>
-        <!-- END Inside Cisco -->
-
-        <!-- Blogs -->
-        <div class="row h-100 mt-5">
-            <div class="col-12 col-lg-4 d-flex flex-column justify-content-evenly">
-                <h6 class="card-title">News</h6>
-                <h5 class="card-title fw-light mt-3 mb-2">Cisco AI Readiness Index</h5>
-                <p class="card-text fw-lighter">The acceleration of artificial Intelligence (AI) is fundamentally changing our world. Cisco set out to understand the readiness of global companies to deploy AI solutions in the AI Readiness Index.</p>
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                    Explore Cisco AI  >
-                </a>
-            </div>
-            <div class="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column justify-content-evenly">
-                <h6 class="card-title">Blog</h6>
-                <h5 class="card-title fw-light mt-3 mb-2">Cisco further delivers on Full-Stack Observability ecosystem vision</h5>
-                <p class="card-text fw-lighter">Seven new modules built on the Cisco Observability Platform enable customers to use additional value from observable telemetry.</p>
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                    Read Blog  >
-                </a>
-            </div>
-            <div class="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column justify-content-evenly">
-                <h6 class="card-title">Press release</h6>
-                <h5 class="card-title fw-light mt-3 mb-2">Cisco launches new business metrics for applications on AWS</h5>
-                <p class="card-text fw-lighter">New business metrics for Cisco Cloud Observability allow customers to significantly enhance critical business context when observing the end-to-end flow of modern applications.</p>
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium" href="#">
-                    Read press release  >
-                </a>
-            </div>
-
-            <!-- Mobile Link And HR line  -->
-            <hr class="mt-5 d-lg-none">
-            <div class="d-flex d-lg-none px-5 justify-content-around align-items-center mt-4">
-                <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    More news >
-                </a>
-                <a class="fw-medium link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    More events >
-                </a>
-            </div>
-            <!-- END Mobile Link And HR line  -->
-
-        </div>
-        <!--END Blogs -->
-    </div>
-
-    <!-- Desktop Footer -->
-    <footer class="d-none d-lg-block bg-body-secondary">
-        <div class="container">
-            <div class="row h-100 mt-5 py-5">
-                <div class="col-6 d-flex align-items-center px-0 fs-14">
-                    <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        About Cisco
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Contact Us
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Careers
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Connect with a partner
-                    </a>
-                </div>
-                <div class="col-6 d-flex justify-content-end px-0">
+                <hr class="my-5">
+                <div class="d-flex justify-content-center">
                     <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
                         <i class="bi bi-facebook"></i>
                     </a>
@@ -361,128 +475,15 @@
                     <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
                         <i class="bi bi-instagram"></i>
                     </a>
-                </div>
-                <hr class="mt-4">
-                <div class="col-12 p-0 fs-12 mt-4">
-                    <a class="link-secondary link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Feedback
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Help
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Terms & Conditions
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Privacy Statement
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Cookies
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Accessibility
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Trademarks
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Supply Chain Transparency
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Newsroom
-                    </a>
-                    <a class="link-secondary ms-4 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Sitemap
-                    </a>
-                </div>
-                <div class="col-12 p-0 fs-12 mt-4 text-secondary">
+                </div> 
+                <div class="text-center p-0 fs-12 mt-4 text-secondary mb-4">
                     ©2023 Cisco Systems, Inc.
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- END Desktop Footer -->
+        </footer>
+        <!-- END Mobile Footer -->
 
-    <!-- Mobile Footer -->
-    <footer class="d-lg-none bg-body-secondary mt-5">
-        <div class="container d-flex flex-column">
-            <div class="d-flex flex-column mt-5">
-                    <a href="#" class="link-offset-2 mb-4 link-underline link-underline-opacity-0 text-black w-100 d-flex justify-content-between align-items-center">
-                        <span>Quick Links</span>
-                        <i class="fs-1 me-4">-</i>
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        About Cisco
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Contact Us
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Careers
-                    </a>
-                    <a class="link-secondary fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Connect with a partner
-                    </a>
-                <hr class="my-5">
-                    <a href="#" class="link-offset-2 mb-4 link-underline link-underline-opacity-0 text-black w-100 d-flex justify-content-between align-items-center">
-                        <span>Resourses and Legal</span>
-                        <span class="fs-3 me-4">+</span>
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Feedback
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Help
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Terms & Conditions
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Privacy Statement
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Cookies
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Accessibility
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Trademarks
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Supply Chain Transparency
-                    </a>
-                    <a class="link-secondary mb-4 fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Newsroom
-                    </a>
-                    <a class="link-secondary fs-14 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                        Sitemap
-                    </a>
-            </div>
-            <hr class="my-5">
-            <div class="d-flex justify-content-center">
-                <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
-                    <i class="bi bi-twitter-x"></i>
-                </a>
-                <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
-                    <i class="bi bi-youtube"></i>
-                </a>
-                <a class="link-offset-2 text-body-tertiary ms-4 fs-5 link-underline link-underline-opacity-0" href="#">
-                    <i class="bi bi-instagram"></i>
-                </a>
-            </div> 
-            <div class="text-center p-0 fs-12 mt-4 text-secondary mb-4">
-                ©2023 Cisco Systems, Inc.
-            </div>
-        </div>
-    </footer>
-    <!-- END Mobile Footer -->
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
