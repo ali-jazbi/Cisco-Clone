@@ -35,4 +35,16 @@
     .features .row i{
         font-size: 30px !important;
     }
+    .pic-text .row{
+        padding: 20px;
+    }
+    .pic-text .row .col-12{
+        padding: 0px !important;
+    }
+    .pic-text .row:first-child .btn{
+        width: 75% !important;
+    }
+    .pic-text .row:last-child .btn{
+        width: 55% !important;
+    }
 }

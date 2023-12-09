@@ -156,7 +156,7 @@
                     New Cisco Security Suites
                 </h2>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
                 <div class="card shadow-sm">
                     <img src="./images/card-1.avif" class="card-img-top" alt="...">
                     <div class="card-body px-4 d-flex flex-column justify-content-evenly">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
                 <div class="card shadow-sm">
                     <img src="./images/card-2.avif" class="card-img-top" alt="...">
                     <div class="card-body px-4 d-flex flex-column justify-content-evenly">
@@ -182,7 +182,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
+            <div class="col-12 mt-4 mt-lg-0 col-lg-4 d-flex justify-content-center">
                 <div class="card shadow-sm">
                     <img src="./images/card-1.avif" class="card-img-top" alt="...">
                     <div class="card-body px-4 d-flex flex-column justify-content-evenly">
@@ -201,7 +201,7 @@
         <!-- Pic / Text -->
         <div class="pic-text">
             <div class="row h-100 mt-5">
-                <div class="col-12 col-lg-6">
+                <div class="col-10 col-lg-6 p-0">
                     <img src="./images/pic-1.avif" alt="">
                 </div>
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center" style="padding-left:150px;">
@@ -210,8 +210,9 @@
                     <button class="btn btn-primary w-50 fw-medium py-3 rounded-pill">Read FY23 Purpose Report</button>
                 </div>
             </div>
-            <div class="row h-100 mt-5">
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center" style="padding-right:150px;">
+            <!-- Row Only In Desktop -->
+            <div class="row h-100 mt-5 d-none d-lg-flex">
+                <div class="col-lg-6 d-flex flex-column justify-content-center" style="padding-right:150px;">
                     <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
                     <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
                     <div class="d-flex align-items-center">
@@ -221,15 +222,34 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-lg-6">
                     <img src="./images/pic-2.avif" alt="">
                 </div>
             </div>
+            <!--End Row Only In Desktop -->
+
+            <!-- Row Only In Mobile -->
+            <div class="row h-100 mt-5 d-lg-none">
+                <div class="col-10 col-lg-6 bg-danger p-0">
+                    <img src="./images/pic-2.avif" alt="">
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4">
+                    <h2 class="fw-normal">Secure your industrial network with our latest offers</h2>
+                    <p class="mt-1">Gain visibility into and secure your operational technology (OT) devices to maximize uptime and improve operational efficiency. </p>
+                        <button class="btn btn-primary fw-medium w-75 py-3 px-4 me-4 rounded-pill">See IoT special offers</button>
+                        <a class="link-offset-2 mt-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-medium " href="#">
+                            Explore industrial IoT portfolio  >
+                        </a>
+                </div>
+            </div>
+            <!--End Row Only In Mobile -->
+
+
             <div class="row h-100 mt-5">
-                <div class="col-12 col-lg-6">
+                <div class="col-10 col-lg-6 p-0 mt-5 mt-lg-0">
                     <img src="./images/pic-3.avif" alt="">
                 </div>
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center" style="padding-left:150px;">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mt-4 mt-lg-0" style="padding-left:150px;">
                     <h2 class="fw-normal">Tailored learning with Cisco U.</h2>
                     <p class="mt-1">Discover recommended content just for you and your team. Explore skills assessments, learn-on-the-go tutorials, and more. Start for free.</p>
                     <button style="width: 40%;" class="btn btn-primary fw-medium py-3 me-4 rounded-5">Discover Cisco U.</button>
